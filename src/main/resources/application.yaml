@@ -1,0 +1,26 @@
+server:
+  port: ${APP_PORT:8080}
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    context-path: /
+
+spring:
+  application.name: linkerfs-warp-gen-4j
+  web:
+    resources:
+      static-locations: file:${DIST_DIR:./dist},classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+
+springdoc:
+  swagger-ui:
+    path: /doc/
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+
+knife4j:
+  enable: true
+  setting:
+    language: en
+
