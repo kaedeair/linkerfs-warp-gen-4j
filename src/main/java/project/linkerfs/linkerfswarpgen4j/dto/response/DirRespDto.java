@@ -1,7 +1,7 @@
 package project.linkerfs.linkerfswarpgen4j.dto.response;
 
 import lombok.Data;
-import project.linkerfs.linkerfswarpgen4j.dto.DirDto;
+import project.linkerfs.linkerfswarpgen4j.dto.common.DirDto;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package project.linkerfs.linkerfswarpgen4j.dto;
+package project.linkerfs.linkerfswarpgen4j.dto.common;
 
 import lombok.Data;
 

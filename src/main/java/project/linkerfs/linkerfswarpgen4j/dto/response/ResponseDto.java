@@ -16,6 +16,10 @@ public class ResponseDto<T> {
         this.msg = msg;
     }
 
+    public static <T> ResponseDto<T> success() {
+        return new ResponseDto<>(ResponseCode.SUCCESS.getCode(), null, ResponseCode.SUCCESS.getMessage());
+    }
+
     public static <T> ResponseDto<T> success(T data) {
         return new ResponseDto<>(ResponseCode.SUCCESS.getCode(), data, ResponseCode.SUCCESS.getMessage());
     }

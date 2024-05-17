@@ -2,7 +2,7 @@ package project.linkerfs.linkerfswarpgen4j.service;
 
 import org.springframework.stereotype.Service;
 import project.linkerfs.linkerfswarpgen4j.common.ResponseCode;
-import project.linkerfs.linkerfswarpgen4j.dto.DirDto;
+import project.linkerfs.linkerfswarpgen4j.dto.common.DirDto;
 import project.linkerfs.linkerfswarpgen4j.dto.response.DirRespDto;
 import project.linkerfs.linkerfswarpgen4j.dto.response.ResponseDto;
 
